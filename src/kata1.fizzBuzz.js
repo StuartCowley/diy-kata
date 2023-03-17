@@ -1,5 +1,4 @@
 const fizzBuzz = (number) => {
- 
   const divisableBy3 = number % 3;
   const divisableBy5 = number % 5;
   const divisableBy7 = number % 7;

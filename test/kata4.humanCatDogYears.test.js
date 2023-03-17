@@ -1,7 +1,4 @@
-const {
-  humanCatDogYears,
-  calculateCatOrDogYears,
-} = require("../src");
+const { humanCatDogYears, calculateCatOrDogYears } = require("../src");
 
 describe("humanCatDogYears", () => {
   test("returns array of human, cat and dog years when passed human years", () => {
@@ -18,7 +15,6 @@ describe("humanCatDogYears", () => {
 
 describe("call calculateCatOrDogYears to calculate cat years", () => {
   test("returns cat years when passed human years", () => {
-    // expect(calculateCatYears(10)).toBe(56);
     expect(calculateCatOrDogYears(1, true)).toBe(15);
     expect(calculateCatOrDogYears(2, true)).toBe(24);
     expect(calculateCatOrDogYears(3, true)).toBe(28);
@@ -26,7 +22,7 @@ describe("call calculateCatOrDogYears to calculate cat years", () => {
   });
 });
 
- describe("call calculateCatOrDogYears to calculate dog years", () => {
+describe("call calculateCatOrDogYears to calculate dog years", () => {
   test("returns dog years when passed human years", () => {
     expect(calculateCatOrDogYears(10, false)).toBe(64);
   });
