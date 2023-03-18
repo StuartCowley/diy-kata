@@ -1,8 +1,14 @@
 # DIY Kata
 
-This repository is aimed at helping you get to grips with the basics of testing in JavaScript.
+This is my first README. This is very basic, as I'm only explaining how I have tackled these katas.
 
-Your challenge is to populate the functions and then to write tests for those functions.
+Incidentally, the word 'kata' in the language of my country of origin Malaysia, means 'word', which I think is very apt for these little exercises!
+
+I took my time with these katas, as I wanted to test as many scenarios as I possible could to ensure that my codes are able to handle them. I tried what is called 'edge cases', and in the reachDestination kata, discovered that, whilst Math.round should be used, an 'edge case' showed that Math.ceil was the better option.
+
+I have tried to incorporate all the feedback I received for my basic js katas, I hope I have remembered everything.
+
+I think I could have done a better job with the joinNames kata, but it did it in the way I understood. I will revisit when I have time.
 
 ## Instructions
 
