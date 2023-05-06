@@ -10,4 +10,4 @@ const fizzBuzz = (number) => {
 	}
 };
 
-module.exports = { fizzBuzz };
+module.exports = fizzBuzz;

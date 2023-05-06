@@ -1,4 +1,4 @@
-const { fizzBuzz } = require("../src/kata1.fizzBuzz");
+const { fizzBuzz } = require("../src");
 
 describe("fizzBuzz", () => {
 	test("returns Fizz when passed a multiple of 3", () => {
