@@ -1,9 +1,7 @@
 const joinNames = (namesObj) => {
-	// transfer names into an array
-
-	let nameArray = ["Bart", "Lisa", "Maggie"];
-
-	//good from here down!
+	const nameArray = namesObj.map(function (x) {
+		return x.name;
+	});
 	let lastName = nameArray.pop();
 	let nameString = nameArray.join(", ");
 
