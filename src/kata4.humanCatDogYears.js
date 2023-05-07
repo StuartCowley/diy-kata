@@ -13,8 +13,8 @@ const humanCatDogYears = (number) => {
 		cat = 24;
 		dog = 24;
 	} else if (number > 2) {
-		cat = oldAge * 4;
-		dog = oldAge * 5;
+		cat = oldAge * 4 + 24;
+		dog = oldAge * 5 + 24;
 	}
 	return [human, cat, dog];
 };
