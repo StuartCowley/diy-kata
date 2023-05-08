@@ -27,7 +27,7 @@ const humanCatDogYears = (number) => {
     return dogAge;
   }
 
-  return [humanYears, catYears(10), dogYears(10)];
+  return [humanYears, catYears(number), dogYears(number)];
 };
 
 module.exports = humanCatDogYears;
