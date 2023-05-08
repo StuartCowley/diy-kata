@@ -18,7 +18,16 @@ describe("getEmployerRole", () => {
       role: "Human Recommended Reading Assistant",
     },
   ];
-  test("returns the employee's role in the company", () => {
-    expect(getEmployerRole(employees)).toBe("Javid", employees);
+  it("returns Javid's role", () => {
+    expect(getEmployerRole("Javid", employees)).toBe(
+      "Human Recommended Reading Assistant"
+    );
+  });
+  it("returns Jenny's role", () => {
+    expect(getEmployerRole("Jenny", employees)).toBe("Sales Associate");
+  });
+
+  it("returns Satti's role", () => {
+    expect(getEmployerRole("Satti", employees)).toBe("Developer");
   });
 });
