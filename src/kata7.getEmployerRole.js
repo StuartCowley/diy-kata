@@ -1,6 +1,11 @@
 const getEmployerRole = (employeename, employees) => {
-    const emp=employees.find(person=> person.name===employeename);
-   return emp.role;
+   // const emp=employees.find(person=> person.name===employeename);
+  // return emp.role;
+  const employeeArray= employees.filter(person=> person.name===employeename).map((item)=>{
+   return item.role;
+  })
+   return employeeArray.toString();
+     
 
 }
 
