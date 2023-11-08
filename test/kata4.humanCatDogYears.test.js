@@ -1,8 +1,11 @@
 const { humanCatDogYears } = require("../src");
 
-  describe("CatDogYears", () => {
-    xit("calculate cat and dog years based on human years", () => {
-    expect(humanCatDogYears(10)).toEqual(10, 56, 64);
-    })
+describe("humanCatDogYears", () => {
+  it("turns human years into cat and dog years", () => {
+    expect(humanCatDogYears(1)).toEqual([1, 15, 15]);
+    expect(humanCatDogYears(2)).toEqual([2, 24, 24]);
+    expect(humanCatDogYears(10)).toEqual([10, 56, 64]);
+  });
 });
+
 // Look Ma, no handlebars!!!
