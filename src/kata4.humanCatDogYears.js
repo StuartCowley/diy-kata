@@ -1,6 +1,7 @@
 const humanCatDogYears = (number) => {
-    let catYears;
-    let dogYears;
+
+  let catYears;
+  let dogYears;
   
     if (number === 1) {
       catYears = 15;
@@ -13,6 +14,8 @@ const humanCatDogYears = (number) => {
       dogYears = 24 + (number - 2) * 5;
     }
     return [number, catYears, dogYears];
+
   };  
 
 module.exports = humanCatDogYears;
+sta
